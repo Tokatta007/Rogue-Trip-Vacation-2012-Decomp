@@ -1,0 +1,286 @@
+rt_va	rt_words	tm2_va	tm2_words	tm2_name	kind	ratio	candidates	tm2_source
+80114368	18	800D1D64	19	dbInitCsForAModel	similar	0.919	1	
+801143B0	2	800D1C30	2	nullsub_1	exact	1.000	33	
+801161F8	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8011FE2C	2	800D1C30	2	nullsub_1	exact	1.000	33	
+8012DB94	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8012DBB0	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8012DBF8	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8012DC04	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8012DCA0	27	80138068	28	strInit	similar	0.836	1	
+8012DEA4	77	801382A8	73	strNext	similar	0.840	1	
+8012DFD8	42	801383CC	43	sub_801383CC	similar	0.941	1	
+80131B34	3	8010EE58	3	sub_8010EE58	exact	1.000	6	src/semantic/weapon_tables.c
+80131B40	43	801215F8	44	sub_801215F8	similar	0.943	1	src/semantic/bitmap_rect_fill.c
+80131E04	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+80131E58	67	8012191C	68	sub_8012191C	similar	0.978	1	src/semantic/bitmap_image_register.c
+80132EA4	6	800D19B0	6	rtUpdateFieldCounter	exact	1.000	1	
+80132EBC	3	8010EE58	3	sub_8010EE58	exact	1.000	6	src/semantic/weapon_tables.c
+80132EC8	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+80132F10	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+80132F28	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+80133040	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8013304C	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+80133058	2	800D1C30	2	nullsub_1	exact	1.000	33	
+80133958	7	800D667C	7	sub_800D667C	exact	1.000	1	
+80136A1C	36	8014E4C8	36	timIntoVRAM	similar	0.944	1	
+80138368	2	800D1C30	2	nullsub_1	exact	1.000	33	
+8013A06C	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+8013B584	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+8013B594	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+8013B690	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8013B69C	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+801549A8	2	800D1C30	2	nullsub_1	exact	1.000	33	
+801549B0	43	8013878C	43	start	exact	1.000	1	
+80154A6C	4	80138848	4	exit	exact	1.000	1	src/semantic/bios_calls.c
+80154A7C	4	8013D994	4	strcmp	exact	1.000	1	src/semantic/bios_calls.c
+80154A8C	4	80138868	4	strcpy	exact	1.000	1	src/semantic/bios_calls.c
+80154AAC	4	80138878	4	memcpy	exact	1.000	1	src/semantic/bios_calls.c
+80154ABC	4	80144968	4	memset	exact	1.000	1	src/semantic/bios_calls.c
+80154ACC	4	80138888	4	rand	exact	1.000	1	src/semantic/bios_calls.c
+80154ADC	4	80138898	4	srand	exact	1.000	1	src/semantic/bios_calls.c
+80154AEC	4	801388A8	4	printf	exact	1.000	1	src/semantic/bios_calls.c
+8015538C	4	801393F8	4	strlen	exact	1.000	1	src/semantic/bios_calls.c
+8015539C	4	80139408	4	memchr	exact	1.000	1	src/semantic/bios_calls.c
+8015544C	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+8015545C	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+8015546C	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+801554F4	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+80155590	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+801555B0	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+80155A38	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+80155B5C	32	8013AD34	32	CdPosToInt	exact	1.000	1	
+80156A8C	34	8013BCB4	34	CD_vol	similar	0.912	1	
+80156BE8	60	8013BF34	61	CD_initvol	similar	0.876	1	
+8015706C	64	8013CC40	56	CD_getsector	similar	0.883	1	
+80157344	4	8013CF7C	4	sub_8013CF7C	exact	1.000	1	src/semantic/bios_extra.c
+80157918	41	8013D58C	43	CD_searchdir	similar	0.857	1	
+80157C58	26	8013D8F4	27	cd_read	similar	0.868	1	
+80157CCC	4	8013D9A4	4	strncmp	exact	1.000	1	src/semantic/bios_calls.c
+80158510	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+8015853C	24	8013DA48	24	StClearRing	exact	1.000	1	
+8015868C	33	8013DB10	34	StSetStream	similar	0.925	1	
+801587CC	13	8013DC54	16	init_ring_status	callgraph	0.621	1	
+80159208	11	8013E6F0	13	mem2mem	similar	0.917	1	
+801593DC	57	8013E8B0	57	GsGetTimInfo	exact	1.000	1	
+801594CC	15	8013F260	15	rsin	exact	1.000	1	
+80159508	36	8013F29C	40	sin_1	callgraph	0.711	1	
+80159644	32	8013FBC4	32	InitGeom	exact	1.000	1	
+801596CC	33	8013FC44	33	sub_8013FC44	similar	0.909	1	
+8015985C	48	8013FE60	47	sub_8013FE60	similar	0.947	1	
+80159DDC	12	80140410	12	SetRotMatrix	exact	1.000	1	src/semantic/gte_setters.c
+80159F50	22	801408B8	22	OuterProduct12	exact	1.000	1	
+80159FA8	22	801408B8	22	OuterProduct12	similar	0.955	1	
+8015A05C	163	801409D4	163	RotMatrixYXZ	similar	0.963	1	
+8015A2EC	102	80140C64	102	RotMatrixX	similar	0.980	1	
+8015A48C	102	80140C64	102	RotMatrixX	similar	0.863	1	
+8015A62C	93	80140E04	98	ratan2	similar	0.827	1	
+8015A7AC	43	80140F8C	26	_patch_gte	callgraph	0.609	1	
+8015A858	71	80143C50	59	LoadTPage	similar	0.846	1	
+8015A974	25	80143D3C	26	LoadClut	similar	0.863	1	
+8015A9D8	25	80143D3C	26	LoadClut	similar	0.863	1	
+8015AAF0	15	80143E64	15	SetDefDispEnv	exact	1.000	1	
+8015AB6C	40	80143EE0	41	FntLoad	similar	0.889	1	
+8015B5E8	6	80144A40	6	GetClut	exact	1.000	1	
+8015B660	16	80144B28	16	DumpClut	exact	1.000	1	
+8015B6D8	15	80144BA0	15	AddPrim	exact	1.000	1	src/semantic/gpu_addprim.c
+8015B774	6	80144C3C	6	TermPrim	exact	1.000	1	
+8015B78C	10	80144C54	10	SetSemiTrans	exact	1.000	1	
+8015B7B4	10	80144C7C	10	SetShadeTex	exact	1.000	1	
+8015BE5C	41	80141308	43	SetGraphQueue	similar	0.881	1	
+8015BF00	4	8013A570	4	sub_8013A570	exact	1.000	5	src/semantic/cd_control.c
+8015BF70	38	80141430	39	SetDispMask	similar	0.935	1	
+8015C008	26	801414CC	27	DrawSync	similar	0.943	1	
+8015C18C	36	80141660	37	ClearImage	similar	0.932	1	
+8015C2B4	24	801416F4	25	LoadImage	similar	0.898	1	
+8015C314	24	80141758	25	StoreImage	similar	0.898	1	
+8015C5A0	23	801419D0	24	DrawPrim	similar	0.936	1	
+8015C5FC	28	80141A30	29	DrawOTag	similar	0.947	1	src/semantic/gpu_bindings/DrawOTag.c
+8015C66C	48	80141AA4	49	PutDrawEnv	similar	0.928	1	
+8015CCA0	12	80141FFC	13	GetODE	similar	0.800	1	
+8015CCD0	14	80142030	15	SetTexWindow	similar	0.828	1	
+8015CD08	32	8014206C	33	SetDrawArea	similar	0.923	1	
+8015CD88	16	801420F0	17	SetDrawOffset	similar	0.848	1	
+8015CE18	21	8014215C	22	SetDrawMode	similar	0.884	1	
+8015D440	32	80142694	33	get_tw	similar	0.954	1	
+8015D4C0	6	801427D4	6	_status	exact	1.000	1	src/semantic/gpu_control.c
+8015D4D8	56	801427EC	58	_otc	similar	0.947	1	
+8015DD1C	18	80143078	19	_cwc	similar	0.919	1	src/semantic/gpu_control.c
+8015DD64	12	801430C4	12	_param	exact	1.000	1	src/semantic/gpu_control.c
+8015DD94	9	801430F4	9	_addque	exact	1.000	1	
+8015DDB8	172	80143118	189	_addque2	callgraph	0.837	1	
+8015E2C8	84	80143720	79	_reset	similar	0.822	1	
+8015E418	79	8014385C	82	_sync	similar	0.907	1	
+8015E554	13	801439A4	13	set_alarm	exact	1.000	1	
+8015EBAC	9	80143C24	11	sub_80143C24	similar	0.900	1	src/semantic/gpu_reset.c
+8015EBDC	94	8014510C	82	VSync	callgraph	0.659	1	
+8015EDEC	12	801452F0	12	ResetCallback	exact	1.000	1	
+8015EE1C	12	80145320	12	InterruptCallback	exact	1.000	1	
+8015EE4C	12	80145350	12	DMACallback	exact	1.000	1	
+8015EE7C	13	80145380	13	VSyncCallback	similar	0.923	1	
+8015EEB0	12	801453B4	12	VSyncCallbacks	exact	1.000	1	
+8015EEE0	12	801453E4	12	StopCallback	exact	1.000	1	
+8015EF10	12	80145414	12	RestartCallback	exact	1.000	1	
+8015EF40	4	80145444	4	CheckCallback	exact	1.000	1	
+8015EF50	6	80145454	6	GetIntrMask	exact	1.000	1	
+8015EF80	54	80145488	55	startIntr	similar	0.936	1	
+8015F488	9	801459D8	11	sub_801459D8	similar	0.900	1	
+8015F4AC	4	80145A04	4	setjmp	exact	1.000	1	src/semantic/bios_calls.c
+8015F580	11	80145AE8	11	setIntrVSync	exact	1.000	1	
+8015F5AC	9	801459D8	11	sub_801459D8	similar	0.900	1	
+8015F628	96	80145B90	97	trapIntrDMA	similar	0.953	1	
+8015F854	9	801459D8	11	sub_801459D8	similar	0.900	1	
+8015F890	4	800D3590	4	PadChkMtap	exact	1.000	6	src/semantic/anchor_consumers.c
+8015F8AC	4	80145E10	4	InitHeap	exact	1.000	1	src/semantic/bios_calls.c
+8015F8BC	4	80145E20	4	FlushCache	exact	1.000	1	src/semantic/bios_calls.c
+8015F8CC	4	80145E30	4	GPU_cw	exact	1.000	1	src/semantic/bios_calls.c
+8015F8E4	4	80145E40	4	sub_80145E40	exact	1.000	1	src/semantic/bios_extra.c
+8015F8FC	4	80145E50	4	ReturnFromException	exact	1.000	1	src/semantic/bios_calls.c
+8015F90C	4	80145E60	4	ResetEntryInt	exact	1.000	1	src/semantic/bios_calls.c
+8015F91C	4	80145E70	4	HookEntryInt	exact	1.000	1	src/semantic/bios_calls.c
+8015F92C	4	80145E80	4	EnterCriticalSection	exact	1.000	1	src/semantic/bios_extra.c
+8015F93C	4	80145E90	4	ExitCriticalSection	exact	1.000	1	src/semantic/bios_extra.c
+8015F99C	4	80145EA0	4	ChangeClearPAD	exact	1.000	1	src/semantic/bios_calls.c
+8015F9AC	4	80145EB0	4	ChangeClearRCnt	exact	1.000	1	src/semantic/bios_calls.c
+8015F9BC	9	80145EC4	9	__builtin_delete	exact	1.000	1	
+8015F9E0	4	80145EE8	4	free	exact	1.000	1	src/semantic/bios_calls.c
+80160834	33	801479F8	34	_spu_write	similar	0.866	1	
+8016091C	17	80147AE8	18	_spu_FsetRXX	similar	0.857	1	
+80160960	41	80147B30	41	_spu_FsetRXXa	similar	0.902	1	
+80160B50	4	80147C10	4	DeliverEvent	exact	1.000	1	src/semantic/bios_calls.c
+80160B60	193	8015D7F8	192	sub_8015D7F8	similar	0.842	1	
+80160F00	2	800D1C30	2	nullsub_1	exact	1.000	33	
+80161E08	2	8014DA28	2	sub_8014DA28	exact	1.000	1	
+80161E10	2	8014DA28	2	sub_8014DA28	exact	1.000	1	
+80161F90	2	8014DA28	2	sub_8014DA28	exact	1.000	1	
+80161FE0	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+80162000	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+80162020	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+80163E3C	68	8015686C	68	BoundVector	exact	1.000	1	
+8016408C	24	80156ABC	24	BoundAngle	exact	1.000	1	
+801640EC	28	80156B1C	28	BoundSAngle	exact	1.000	1	
+8016415C	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+80164274	3	80137948	3	sub_80137948	exact	1.000	1	src/semantic/menu_state_accessors.c
+80164280	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8016428C	4	8014A30C	4	sub_8014A30C	exact	1.000	1	src/semantic/shared_pad.c
+80164CA8	57	80149970	57	MulRotMatrix0	exact	1.000	1	
+80164EA0	8	8015704C	8	SsQuit	exact	1.000	1	
+801663CC	12	80140440	12	SetLightMatrix	exact	1.000	1	src/semantic/gte_setters.c
+801663FC	12	80140470	12	SetColorMatrix	exact	1.000	1	src/semantic/gte_setters.c
+8016642C	8	801404A0	8	SetTransMatrix	exact	1.000	1	src/semantic/gte_setters.c
+8016644C	5	8014D600	5	sub_8014D600	exact	1.000	1	src/semantic/gte_depth.c
+8016646C	6	8014D614	6	sub_8014D614	exact	1.000	1	src/semantic/gte_depth.c
+8016648C	8	8014A1A8	8	SetBackColor	exact	1.000	1	src/semantic/gte_setters.c
+801665B0	8	80140670	8	NormalColorCol	exact	1.000	1	
+8016668C	11	801404C4	11	sub_801404C4	exact	1.000	1	
+801666BC	21	801404F0	21	sub_801404F0	exact	1.000	1	
+8016671C	30	8014D680	30	RotTransPers4	exact	1.000	1	
+8016679C	8	8015704C	8	SsQuit	exact	1.000	1	
+80166B20	8	8015704C	8	SsQuit	exact	1.000	1	
+80166D24	2	8014DA28	2	sub_8014DA28	exact	1.000	1	
+80166DC0	2	8014DA28	2	sub_8014DA28	exact	1.000	1	
+80166DC8	12	8014DAA4	12	sub_8014DAA4	similar	0.833	1	
+80166E34	8	8015704C	8	SsQuit	exact	1.000	1	
+80167020	26	801136B8	27	fontPrintCenteredXY	similar	0.868	1	src/semantic/font_print.c
+80167A94	27	8014DC7C	28	Load4BitClut	similar	0.836	1	
+80167B00	17	8014DD30	17	sub_8014DD30	similar	0.824	1	
+80167B44	17	8014DD30	17	sub_8014DD30	similar	0.824	1	
+8016827C	36	8014E4C8	36	timIntoVRAM	similar	0.944	1	
+80168628	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+80168634	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8016939C	79	8014EF98	77	sub_8014EF98	similar	0.987	1	
+801694D8	40	8014F0CC	39	sub_8014F0CC	similar	0.987	1	
+80169A74	38	8014F6B8	38	sub_8014F6B8	similar	0.947	1	
+80169E40	50	8014E9B0	44	sub_8014E9B0	similar	0.936	1	
+8016A3B8	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8016A630	2	800D1C30	2	nullsub_1	exact	1.000	33	
+8016B128	50	8014E9B0	44	sub_8014E9B0	similar	0.936	1	
+8016C064	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8016C0F0	7	80124EDC	7	sub_80124EDC	exact	1.000	3	src/semantic/object_record_lookup.c
+8016CE78	3	800D38C0	3	sub_800D38C0	exact	1.000	8	
+8016CE84	3	8011D514	3	sub_8011D514	exact	1.000	16	src/semantic/shared_flags.c
+8016D08C	3	8010EE58	3	sub_8010EE58	exact	1.000	6	src/semantic/weapon_tables.c
+8016D18C	60	801519DC	60	sub_801519DC	similar	0.850	1	src/semantic/animation_frame_update.c
+8016D5A0	71	80151DF4	72	sub_80151DF4	similar	0.979	1	
+8016D968	14	80152194	15	sub_80152194	similar	0.828	1	
+8016DBFC	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+8016E62C	76	8014EF98	77	sub_8014EF98	similar	0.889	1	
+8016EA80	50	8014E9B0	44	sub_8014E9B0	similar	0.936	1	
+8016F60C	77	80153FE4	77	sub_80153FE4	exact	1.000	2	src/semantic/math_vec.c
+8016F740	77	80154118	77	mathMulTransVec	exact	1.000	1	src/semantic/math_vec.c
+8016F874	77	80153FE4	77	sub_80153FE4	exact	1.000	2	src/semantic/math_vec.c
+8016F9A8	95	80154380	95	mathMulTransVecShort	exact	1.000	1	
+8016FB24	85	801544FC	88	mathNormalizeVec	similar	0.948	1	
+8016FD98	11	80151628	13	sub_80151628	similar	0.917	1	
+801719F8	8	8015704C	8	SsQuit	exact	1.000	1	
+80171A8C	58	80156EF8	69	_SsInit	similar	0.803	1	
+80171B7C	65	8015FF64	66	SsUtGetProgAtr	similar	0.901	1	
+80171C8C	142	80161A0C	143	SsUtGetVagAtr	similar	0.947	1	
+801723D8	4	8015531C	4	sub_8015531C	exact	1.000	2	src/semantic/timer_consumers.c
+801723EC	8	8015D408	8	SpuInit	exact	1.000	1	
+80173F5C	12	8014621C	12	SsVabOpenHead	exact	1.000	1	
+8017447C	10	801467A8	10	SsVabTransCompleted	exact	1.000	1	
+801744AC	21	8015D4C4	21	SpuInitMalloc	exact	1.000	1	
+8017450C	177	801467D0	178	SpuMalloc	similar	0.946	1	
+801747DC	58	80147C20	41	_SpuInit	callgraph	0.566	1	
+8017493C	4	80147D48	4	OpenEvent	exact	1.000	1	src/semantic/bios_calls.c
+8017494C	4	80147D58	4	EnableEvent	exact	1.000	1	src/semantic/bios_calls.c
+8017498C	192	80147D8C	192	_spu_gcSPU	similar	0.917	1	
+80174C8C	31	8014808C	31	SpuFree	similar	0.839	1	
+8017600C	23	80148108	24	SpuWrite	similar	0.936	1	
+801760FC	41	801481D8	42	SpuIsTransferCompleted	callgraph	0.867	1	
+801761AC	4	80148280	4	TestEvent	exact	1.000	1	src/semantic/bios_calls.c
+801770C8	474	80154690	488	sub_80154690	similar	0.933	1	
+80177830	21	80154E30	21	sub_80154E30	exact	1.000	1	
+80177A98	33	80155088	33	sub_80155088	exact	1.000	1	
+80177CC4	38	8014FE50	39	hdpIsPtInSphere	similar	0.909	1	
+801787CC	3	801218C0	3	sub_801218C0	exact	1.000	12	src/semantic/bitmap_state_helpers.c
+801788E4	11	801551E8	11	GetCurTics	exact	1.000	1	src/semantic/timer_consumers.c
+80178A00	4	800D3590	4	PadChkMtap	exact	1.000	6	src/semantic/anchor_consumers.c
+80178A1C	4	8015531C	4	sub_8015531C	exact	1.000	2	src/semantic/timer_consumers.c
+80178A2C	4	8015531C	4	sub_8015531C	exact	1.000	2	src/semantic/timer_consumers.c
+80178A70	4	800D3590	4	PadChkMtap	exact	1.000	6	src/semantic/anchor_consumers.c
+80178AC8	22	801553C8	23	sub_801553C8	similar	0.889	1	src/semantic/timer_consumers.c
+80178B20	4	80155424	4	CloseEvent	exact	1.000	1	src/semantic/bios_calls.c
+80178B30	4	80155434	4	DisableEvent	exact	1.000	1	src/semantic/bios_calls.c
+80178BDC	14	801554E4	14	GetRCnt	exact	1.000	1	
+80178CB0	2	800D1C30	2	nullsub_1	exact	1.000	33	
+80179278	9	8011CEE8	9	sub_8011CEE8	similar	0.889	1	
+8017929C	9	8011CEE8	9	sub_8011CEE8	similar	0.889	1	
+801793C0	9	8011CEE8	9	sub_8011CEE8	similar	0.889	1	
+80179548	29	8015659C	30	sub_8015659C	similar	0.814	1	
+8017976C	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8017985C	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+80179868	11	80151628	13	sub_80151628	similar	0.917	1	
+801798B0	6	8014A25C	6	SetGeomOffset	exact	1.000	1	src/semantic/gte_setters.c
+801798D0	3	8014A274	3	sub_8014A274	exact	1.000	1	src/semantic/gte_depth.c
+8017A470	55	80156D08	54	soundInit	similar	0.826	1	
+8017A54C	10	80114B48	10	sub_80114B48	similar	0.800	1	
+8017A624	12	8012A910	12	SsInitHot	exact	1.000	1	
+8017A654	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+8017A8C4	8	8015D408	8	SpuInit	exact	1.000	1	
+8017BDF4	10	80158168	10	SsSeqStop	similar	0.800	1	
+8017C954	8	8015D408	8	SpuInit	exact	1.000	1	
+8017C974	29	8015D428	31	SpuQuit	similar	0.833	1	
+8017C9F4	14	8015E8B0	15	sub_8015E8B0	similar	0.828	1	
+8017CD30	8	8015704C	8	SsQuit	exact	1.000	1	
+8017CF64	53	8015ECD8	53	cbvsync	similar	0.849	1	
+8017D234	2	800D1C30	2	nullsub_1	exact	1.000	33	
+8017D23C	3	8010EE58	3	sub_8010EE58	exact	1.000	6	src/semantic/weapon_tables.c
+8017D248	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8017D254	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8017D260	3	800D19D4	3	sub_800D19D4	exact	1.000	29	
+8017D290	137	8015EE68	137	CdGetToc2	similar	0.847	1	src/semantic/cd_toc.c
+8017D4BC	2	800D1C30	2	nullsub_1	exact	1.000	33	
+8017D4C4	8	8015F094	8	sub_8015F094	exact	1.000	1	
+8017DF0C	10	8014D820	8	sub_8014D820	similar	0.889	1	
+8017DF60	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+8017F918	12	8012A910	12	SsInitHot	exact	1.000	1	
+8017FB40	8	801374B0	8	sub_801374B0	exact	1.000	20	src/semantic/menu_state_accessors.c
+8017FF94	14	8012A910	12	SsInitHot	similar	0.923	1	
+8017FFCC	10	80114B48	10	sub_80114B48	exact	1.000	4	
+80180284	4	800D3590	4	PadChkMtap	exact	1.000	6	src/semantic/anchor_consumers.c
+801803E4	14	8012A910	12	SsInitHot	similar	0.923	1	
+80180578	4	8014AA70	4	InitPAD2	exact	1.000	1	src/semantic/bios_calls.c
+80180588	4	8014AA80	4	StartPAD2	exact	1.000	1	src/semantic/bios_calls.c
+80180598	4	8014AA90	4	StopPAD2	exact	1.000	1	src/semantic/bios_calls.c

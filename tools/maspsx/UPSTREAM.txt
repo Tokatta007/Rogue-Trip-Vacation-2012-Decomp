@@ -1,0 +1,1 @@
+stock maspsx, unmodified: https://github.com/mkst/maspsx commit 746b895f02929ecd148af7b1f4ff05b69f973878 (2026-08-29), vendored 2026-09-07 on the user's order (no local patches; the four former patches are retired under tools/ref/maspsx-patches-retired/ for provenance only)

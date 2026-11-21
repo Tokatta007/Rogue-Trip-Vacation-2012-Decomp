@@ -1,0 +1,478 @@
+{
+  "$schema": "https://raw.githubusercontent.com/encounter/objdiff/main/config.schema.json",
+  "min_version": "3.0.0",
+  "custom_make": "toolchain/python/python.exe",
+  "custom_args": [
+    "-B",
+    "tools/objdiff_build.py"
+  ],
+  "build_base": true,
+  "build_target": false,
+  "watch_patterns": [
+    "*.c",
+    "*.h",
+    "*.inc"
+  ],
+  "options": {
+    "mips.abi": "o32",
+    "mips.instrCategory": "r3000gte"
+  },
+  "progress_categories": [
+    {
+      "id": "game",
+      "name": "Game + SDK code"
+    }
+  ],
+  "units": [
+    {
+      "name": "semantic/bios_calls",
+      "target_path": "build/objdiff/target/bios_calls.o",
+      "base_path": "build/objdiff/base/bios_calls.o",
+      "metadata": {
+        "source_path": "src/semantic/bios_calls.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/math_vec",
+      "target_path": "build/objdiff/target/math_vec.o",
+      "base_path": "build/objdiff/base/math_vec.o",
+      "metadata": {
+        "source_path": "src/semantic/math_vec.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/gte_setters",
+      "target_path": "build/objdiff/target/gte_setters.o",
+      "base_path": "build/objdiff/base/gte_setters.o",
+      "metadata": {
+        "source_path": "src/semantic/gte_setters.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/gpu_control",
+      "target_path": "build/objdiff/target/gpu_control.o",
+      "base_path": "build/objdiff/base/gpu_control.o",
+      "metadata": {
+        "source_path": "src/semantic/gpu_control.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_comb",
+      "target_path": "build/objdiff/target/link_comb.o",
+      "base_path": "build/objdiff/base/link_comb.o",
+      "metadata": {
+        "source_path": "src/semantic/link_comb.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_session",
+      "target_path": "build/objdiff/target/link_session.o",
+      "base_path": "build/objdiff/base/link_session.o",
+      "metadata": {
+        "source_path": "src/semantic/link_session.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_comb_control",
+      "target_path": "build/objdiff/target/link_comb_control.o",
+      "base_path": "build/objdiff/base/link_comb_control.o",
+      "metadata": {
+        "source_path": "src/semantic/link_comb_control.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_packet",
+      "target_path": "build/objdiff/target/link_packet.o",
+      "base_path": "build/objdiff/base/link_packet.o",
+      "metadata": {
+        "source_path": "src/semantic/link_packet.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_comb_io",
+      "target_path": "build/objdiff/target/link_comb_io.o",
+      "base_path": "build/objdiff/base/link_comb_io.o",
+      "metadata": {
+        "source_path": "src/semantic/link_comb_io.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_comb_drv",
+      "target_path": "build/objdiff/target/link_comb_drv.o",
+      "base_path": "build/objdiff/base/link_comb_drv.o",
+      "metadata": {
+        "source_path": "src/semantic/link_comb_drv.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/game_main",
+      "target_path": "build/objdiff/target/game_main.o",
+      "base_path": "build/objdiff/base/game_main.o",
+      "metadata": {
+        "source_path": "src/semantic/game_main.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/game_mode",
+      "target_path": "build/objdiff/target/game_mode.o",
+      "base_path": "build/objdiff/base/game_mode.o",
+      "metadata": {
+        "source_path": "src/semantic/game_mode.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/pad_ports",
+      "target_path": "build/objdiff/target/pad_ports.o",
+      "base_path": "build/objdiff/base/pad_ports.o",
+      "metadata": {
+        "source_path": "src/semantic/pad_ports.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_events",
+      "target_path": "build/objdiff/target/link_events.o",
+      "base_path": "build/objdiff/base/link_events.o",
+      "metadata": {
+        "source_path": "src/semantic/link_events.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_event_b",
+      "target_path": "build/objdiff/target/link_event_b.o",
+      "base_path": "build/objdiff/base/link_event_b.o",
+      "metadata": {
+        "source_path": "src/semantic/link_event_b.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_8011FA30",
+      "target_path": "build/objdiff/target/link_game_8011FA30.o",
+      "base_path": "build/objdiff/base/link_game_8011FA30.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_8011FA30.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_80142918",
+      "target_path": "build/objdiff/target/link_game_80142918.o",
+      "base_path": "build/objdiff/base/link_game_80142918.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_80142918.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_801446DC",
+      "target_path": "build/objdiff/target/link_game_801446DC.o",
+      "base_path": "build/objdiff/base/link_game_801446DC.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_801446DC.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_80152BE4",
+      "target_path": "build/objdiff/target/link_game_80152BE4.o",
+      "base_path": "build/objdiff/base/link_game_80152BE4.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_80152BE4.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_callee_80121008",
+      "target_path": "build/objdiff/target/link_callee_80121008.o",
+      "base_path": "build/objdiff/base/link_callee_80121008.o",
+      "metadata": {
+        "source_path": "src/semantic/link_callee_80121008.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_callee_80124B80",
+      "target_path": "build/objdiff/target/link_callee_80124B80.o",
+      "base_path": "build/objdiff/base/link_callee_80124B80.o",
+      "metadata": {
+        "source_path": "src/semantic/link_callee_80124B80.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_callee_8012A154",
+      "target_path": "build/objdiff/target/link_callee_8012A154.o",
+      "base_path": "build/objdiff/base/link_callee_8012A154.o",
+      "metadata": {
+        "source_path": "src/semantic/link_callee_8012A154.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_callee_8012BD20",
+      "target_path": "build/objdiff/target/link_callee_8012BD20.o",
+      "base_path": "build/objdiff/base/link_callee_8012BD20.o",
+      "metadata": {
+        "source_path": "src/semantic/link_callee_8012BD20.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_801143B8",
+      "target_path": "build/objdiff/target/link_game_801143B8.o",
+      "base_path": "build/objdiff/base/link_game_801143B8.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_801143B8.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_801057B8",
+      "target_path": "build/objdiff/target/link_game_801057B8.o",
+      "base_path": "build/objdiff/base/link_game_801057B8.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_801057B8.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_801072E0",
+      "target_path": "build/objdiff/target/link_game_801072E0.o",
+      "base_path": "build/objdiff/base/link_game_801072E0.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_801072E0.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_80103CE4",
+      "target_path": "build/objdiff/target/link_game_80103CE4.o",
+      "base_path": "build/objdiff/base/link_game_80103CE4.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_80103CE4.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_801033D8",
+      "target_path": "build/objdiff/target/link_local_801033D8.o",
+      "base_path": "build/objdiff/base/link_local_801033D8.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_801033D8.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_8012B094",
+      "target_path": "build/objdiff/target/link_local_8012B094.o",
+      "base_path": "build/objdiff/base/link_local_8012B094.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_8012B094.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_80126250",
+      "target_path": "build/objdiff/target/link_local_80126250.o",
+      "base_path": "build/objdiff/base/link_local_80126250.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_80126250.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_8012EEA0",
+      "target_path": "build/objdiff/target/link_local_8012EEA0.o",
+      "base_path": "build/objdiff/base/link_local_8012EEA0.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_8012EEA0.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_8012BCB0",
+      "target_path": "build/objdiff/target/link_local_8012BCB0.o",
+      "base_path": "build/objdiff/base/link_local_8012BCB0.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_8012BCB0.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_80147784",
+      "target_path": "build/objdiff/target/link_local_80147784.o",
+      "base_path": "build/objdiff/base/link_local_80147784.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_80147784.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_local_800FCC68",
+      "target_path": "build/objdiff/target/link_local_800FCC68.o",
+      "base_path": "build/objdiff/base/link_local_800FCC68.o",
+      "metadata": {
+        "source_path": "src/semantic/link_local_800FCC68.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "semantic/link_game_8010DBC4",
+      "target_path": "build/objdiff/target/link_game_8010DBC4.o",
+      "base_path": "build/objdiff/base/link_game_8010DBC4.o",
+      "metadata": {
+        "source_path": "src/semantic/link_game_8010DBC4.c",
+        "progress_categories": [
+          "game"
+        ],
+        "complete": true
+      }
+    },
+    {
+      "name": "nonmatching/text_800EFA28",
+      "target_path": "build/objdiff/target/nonmatching_text_800EFA28.o",
+      "metadata": {
+        "progress_categories": [
+          "game"
+        ],
+        "auto_generated": true
+      }
+    },
+    {
+      "name": "nonmatching/text_800F56B0",
+      "target_path": "build/objdiff/target/nonmatching_text_800F56B0.o",
+      "metadata": {
+        "progress_categories": [
+          "game"
+        ],
+        "auto_generated": true
+      }
+    },
+    {
+      "name": "nonmatching/text_8017D4E8",
+      "target_path": "build/objdiff/target/nonmatching_text_8017D4E8.o",
+      "metadata": {
+        "progress_categories": [
+          "game"
+        ],
+        "auto_generated": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+# splat config for Rogue Trip: Vacation 2012 (USA) main executable.
+# Run from the project root:  tools\splat.cmd
+# Segment edges come from tools/rt_functions.py and the entry-point analysis
+# in docs/RT_RECONSTRUCTION.md; function starts come from symbol_addrs.txt.
+name: SLUS_006.43
+sha1: 0575c9258f54757a4c4f386bec4f379a8af965c5
+options:
+  basename: slus_006.43
+  target_path: bin/SLUS_006.43
+  base_path: ..
+  platform: psx
+  compiler: PSYQ
+
+  asm_path: asm
+  src_path: src/splat
+  build_path: build
+  ld_script_path: build/slus_006.43.ld
+  elf_path: build/slus_006.43.elf
+  ld_dependencies: False
+  create_asm_dependencies: False
+
+  find_file_boundaries: False
+  gp_value: 0x801C3240
+
+  # include/*.inc and include_asm.h are shared with the C build (TM2 lineage);
+  # never let splat regenerate them.
+  generate_asm_macros_files: False
+
+  o_as_suffix: True
+  use_legacy_include_asm: False
+
+  section_order: [".rodata", ".text", ".data", ".sdata", ".bss"]
+
+  symbol_addrs_path:
+    - config/US/symbol_addrs.txt
+  undefined_funcs_auto_path: build/undefined_funcs_auto.txt
+  undefined_syms_auto_path: build/undefined_syms_auto.txt
+
+  subalign: 2
+  # RT regions start on 8-byte and odd boundaries (800EFA28, 800F27B0, ...):
+  # no padding between segments or sections, or the relink would shift.
+  ld_align_segment_start: False
+  ld_align_segment_vram_end: False
+  ld_align_section_vram_end: False
+
+  string_encoding: ASCII
+  data_string_encoding: ASCII
+  rodata_string_guesser_level: 2
+  data_string_guesser_level: 2
+
+segments:
+  - name: header
+    type: header
+    start: 0x0
+
+  # RT interleaves code and read-only data, so each run is its own segment to
+  # keep the generated linker script in file order.
+  - name: ptrs1
+    type: code
+    align: 4
+    start: 0x800
+    vram: 0x800EFA20
+    subsegments:
+      - [0x800, data, ptrs_800EFA20]        # two code pointers
+
+  - name: text1
+    type: code
+    align: 4
+    start: 0x808
+    vram: 0x800EFA28
+    subsegments:
+      - [0x808, asm, text_800EFA28]         # first code block
+
+  - name: rodata1
+    type: code
+    align: 4
+    start: 0x3590
+    vram: 0x800F27B0
+    subsegments:
+      - [0x3590, rodata, rodata_800F27B0]   # jump tables + strings island
+
+  - name: main
+    type: code
+    align: 4
+    start: 0x6490
+    vram: 0x800F56B0
+    bss_size: 0x31CF0            # 801C3720..801F5410, cleared by __start
+    subsegments:
+      - [0x6490, asm, text_800F56B0]        # main code block (game + PsyQ)
+      - [0x8E2C8, asm, text_8017D4E8]       # after a lone `break` stub (file boundary)
+      - [0x914A0, data, data_801806C0]
+      - [0xD4020, sdata, sdata_801C3240]    # $gp base
+      - { start: 0xD4500, type: bss, vram: 0x801C3720, name: bss_801C3720 }
+  - [0xD4800]

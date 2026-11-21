@@ -1,0 +1,7 @@
+// Hand-assigned non-function symbols (splat syntax).
+D_801BAE1C = 0x801BAE1C; // type:u32 size:0x4
+D_801BAE20 = 0x801BAE20; // type:u32 size:0x4
+D_801BAE24 = 0x801BAE24; // type:u32 size:0x4
+D_801BAE28 = 0x801BAE28; // type:u32 size:0x4
+D_801BAE2C = 0x801BAE2C; // type:u32 size:0x4
+D_801BAE30 = 0x801BAE30; // type:u32 size:0x4

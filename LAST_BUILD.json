@@ -1,0 +1,10 @@
+{
+  "executable": "work/build-20261002-151134-164297/psx/RT_HYBRID.EXE",
+  "sha256": "ec0ce2dca02fd26c7e8b9ea903b27dcc61fd96e6af31f46a090395ac0b6043de",
+  "identical_to_retail": true,
+  "replaced_functions": 202,
+  "exact": 202,
+  "semantic": 0,
+  "source_only": false,
+  "runtime_tested": false
+}

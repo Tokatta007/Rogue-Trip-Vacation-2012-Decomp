@@ -1,0 +1,294 @@
+{
+  "schema": "rt-units-v1",
+  "comment": "Units without a functions map take every global function that starts a .text_<VA> section. require: exact (default) fails the build unless the linked bytes equal retail; semantic allows a behaviour-equivalent body that fits the retail slot. semantic_functions lists the VAs of an otherwise exact unit that may differ; build.py --exact-only leaves those (and semantic units) as retail bytes for the retail-identity gate.",
+  "units": [
+    {
+      "source": "src/semantic/bios_calls.c",
+      "delay_slots": "assembler"
+    },
+    {
+      "source": "src/semantic/math_vec.c",
+      "delay_slots": "assembler"
+    },
+    {
+      "source": "src/semantic/gte_setters.c",
+      "delay_slots": "compiler"
+    },
+    {
+      "source": "src/semantic/gpu_control.c",
+      "delay_slots": "compiler"
+    },
+    {
+      "source": "src/semantic/link_comb.c",
+      "delay_slots": "compiler",
+      "compiler": "gcc2.7.2-psyqlib",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "gas": "-O2 -G0"
+    },
+    {
+      "source": "src/semantic/link_session.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56",
+      "sections": {
+        ".sdata": "801C32E0",
+        ".sbss": "801C37C8"
+      }
+    },
+    {
+      "source": "src/semantic/link_comb_control.c",
+      "delay_slots": "compiler",
+      "compiler": "gcc2.7.2-psyqlib",
+      "cc_flags": "-O2 -G8",
+      "gas": "-O2 -G0",
+      "sections": {
+        ".rodata": "800F5004"
+      },
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_packet.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".sdata": "801C3314"
+      }
+    },
+    {
+      "source": "src/semantic/link_comb_io.c",
+      "delay_slots": "compiler",
+      "compiler": "gcc2.7.2-psyqlib",
+      "cc_flags": "-O2 -G8",
+      "gas": "-O2 -G0",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_comb_drv.c",
+      "delay_slots": "compiler",
+      "compiler": "gcc2.7.2-psyqlib",
+      "cc_flags": "-O2 -G8",
+      "gas": "-O2 -G0",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/game_main.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".sdata": "801C3470",
+        ".sbss": "801C3830",
+        ".rodata": "800F4010"
+      }
+    },
+    {
+      "source": "src/semantic/game_mode.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".sdata": "801C3370",
+        ".sbss": "801C380C"
+      }
+    },
+    {
+      "source": "src/semantic/pad_ports.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".sbss": "801C38B4"
+      }
+    },
+    {
+      "source": "src/semantic/link_events.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".sdata": "801C3348",
+        ".sbss": "801C37DC"
+      }
+    },
+    {
+      "source": "src/semantic/link_event_b.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".rodata": "800F34A4"
+      }
+    },
+    {
+      "source": "src/semantic/link_game_8011FA30.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".rodata": "800F3654"
+      }
+    },
+    {
+      "source": "src/semantic/link_game_80142918.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_game_801446DC.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56",
+      "sections": {
+        ".rodata": "800F4360"
+      }
+    },
+    {
+      "source": "src/semantic/link_game_80152BE4.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_callee_80121008.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8 -fvolatile"
+    },
+    {
+      "source": "src/semantic/link_callee_80124B80.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8 -fvolatile"
+    },
+    {
+      "source": "src/semantic/link_callee_8012A154.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8",
+      "sections": {
+        ".rodata": "800F3734"
+      }
+    },
+    {
+      "source": "src/semantic/link_callee_8012BD20.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8 -fvolatile"
+    },
+    {
+      "source": "src/semantic/link_game_801143B8.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56",
+      "sections": {
+        ".sbss": "801C3784"
+      }
+    },
+    {
+      "source": "src/semantic/link_game_801057B8.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_game_801072E0.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_game_80103CE4.c",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56",
+      "delay_slots": "compiler"
+    },
+    {
+      "source": "src/semantic/link_local_801033D8.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_local_8012B094.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_local_80126250.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56",
+      "sections": {
+        ".sbss": "801C37A8",
+        ".rodata": "800F366C"
+      }
+    },
+    {
+      "source": "src/semantic/link_local_8012EEA0.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "aspsx": "2.56"
+    },
+    {
+      "source": "src/semantic/link_local_8012BCB0.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8"
+    },
+    {
+      "source": "src/semantic/link_local_80147784.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8"
+    },
+    {
+      "source": "src/semantic/link_local_800FCC68.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "aspsx": "2.56",
+      "cc_flags": "-O2 -G8 -fvolatile",
+      "sections": {
+        ".sbss": "801C3724"
+      }
+    },
+    {
+      "source": "src/semantic/link_game_8010DBC4.c",
+      "delay_slots": "compiler",
+      "compiler": "psyq4.4",
+      "cc_flags": "-O2 -G8",
+      "aspsx": "2.56",
+      "sections": {
+        ".rodata": "800F314C"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+/* m2c reference for func_80109680 @ 80109680 (283 words). Generated; not compiled or validated. */
+? func_8015CE18(s32, ?, ?, u16, s32);               /* extern */
+? func_80167ED0(?, u8 *, ?);                        /* extern */
+
+void func_80109680(s32 arg0, ? arg1) {
+    u8 sp18;
+    s32 sp60;
+    s32 sp64;
+    s32 sp68;
+    s32 sp6C;
+    s32 sp70;
+    s32 sp74;
+    s32 sp78;
+    s16 temp_s2;
+    s32 temp_s0;
+    s32 temp_t0;
+    s32 var_s3;
+    s32 var_s4;
+    s32 var_s6;
+    s32 var_t0;
+    void *temp_s0_2;
+    void *temp_s1;
+    void *temp_v1;
+    void *temp_v1_2;
+    void *temp_v1_3;
+    void *temp_v1_4;
+    void *temp_v1_5;
+
+    var_s6 = 0;
+    func_80167ED0(arg1, &sp18, 6);
+    var_s4 = 0;
+    sp64 = 0;
+    sp78 = 0;
+    do {
+        var_t0 = var_s6 - 7;
+        if (sp64 == 1) {
+            var_s6 = -0xC;
+            var_t0 = -0x13;
+        }
+        var_s3 = 0;
+        sp60 = 0;
+        sp6C = var_t0;
+        sp70 = arg0;
+        sp74 = 0;
+        sp68 = sp78;
+loop_4:
+        temp_s0 = sp68 + sp70;
+        temp_v1 = temp_s0 + 0x1158;
+        temp_v1->unk3 = 4;
+        temp_v1->unk7 = 0x64;
+        temp_s1 = arg0 + (sp68 + sp74);
+        temp_s1->unk1166 = sp1E;
+        temp_v1->unkC = sp18;
+        temp_v1->unkD = sp19;
+        temp_v1->unk10 = (s16) sp1A;
+        temp_v1->unk12 = (s16) sp1B;
+        temp_v1->unk8 = 9;
+        temp_v1->unkA = (u16) sp6C;
+        temp_v1->unk4 = sp20;
+        temp_v1->unk5 = sp21;
+        temp_v1->unk6 = sp22;
+        func_8015CE18(arg0 + (var_s3 + 0x11A8) + var_s4, 0, 0, sp1C, 0);
+        temp_v1_2 = temp_s0 + 0x11D8;
+        temp_v1_2->unk3 = 4;
+        temp_v1_2->unk7 = 0x64;
+        temp_s1->unk11E6 = sp2A;
+        temp_v1_2->unkC = sp24;
+        temp_v1_2->unkD = sp25;
+        temp_v1_2->unk10 = (s16) sp26;
+        temp_v1_2->unk12 = (s16) sp27;
+        temp_v1_2->unk8 = 0x1C;
+        temp_v1_2->unkA = (s16) (var_s6 + 0x12);
+        temp_v1_2->unk4 = sp2C;
+        temp_v1_2->unk5 = sp2D;
+        temp_v1_2->unk6 = sp2E;
+        func_8015CE18(arg0 + (var_s3 + 0x1228) + var_s4, 0, 0, sp28, 0);
+        temp_v1_3 = temp_s0 + 0x1258;
+        temp_v1_3->unk3 = 4;
+        temp_v1_3->unk7 = 0x64;
+        temp_s1->unk1266 = sp36;
+        temp_v1_3->unkC = sp30;
+        temp_v1_3->unkD = sp31;
+        temp_v1_3->unk10 = (s16) sp32;
+        temp_v1_3->unk12 = (s16) sp33;
+        temp_v1_3->unk8 = 0x44;
+        temp_v1_3->unkA = (u16) sp6C;
+        temp_v1_3->unk4 = sp38;
+        temp_v1_3->unk5 = sp39;
+        temp_v1_3->unk6 = sp3A;
+        func_8015CE18(arg0 + (var_s3 + 0x12A8) + var_s4, 0, 0, sp34, 0);
+        temp_v1_4 = temp_s0 + 0x12D8;
+        temp_v1_4->unk3 = 4;
+        temp_v1_4->unk7 = 0x64;
+        temp_s1->unk12E6 = sp42;
+        temp_v1_4->unkC = sp3C;
+        temp_v1_4->unkD = sp3D;
+        temp_s2 = var_s6 + 0x15;
+        temp_v1_4->unk10 = (s16) sp3E;
+        temp_v1_4->unk12 = (s16) sp3F;
+        temp_v1_4->unk8 = 9;
+        temp_v1_4->unkA = temp_s2;
+        temp_v1_4->unk4 = sp44;
+        temp_v1_4->unk5 = sp45;
+        temp_v1_4->unk6 = sp46;
+        func_8015CE18(arg0 + (var_s3 + 0x1328) + var_s4, 0, 0, sp40, 0);
+        temp_v1_5 = temp_s0 + 0x1358;
+        temp_v1_5->unk3 = 4;
+        temp_v1_5->unk7 = 0x64;
+        temp_s1->unk1366 = sp4E;
+        temp_v1_5->unkC = sp48;
+        temp_v1_5->unkD = sp49;
+        temp_v1_5->unk10 = (s16) sp4A;
+        temp_v1_5->unk12 = (s16) sp4B;
+        temp_v1_5->unk8 = 0xC;
+        temp_v1_5->unkA = (s16) (var_s6 + 0x43);
+        temp_v1_5->unk4 = sp50;
+        temp_v1_5->unk5 = sp51;
+        temp_v1_5->unk6 = sp52;
+        func_8015CE18(arg0 + (var_s3 + 0x13A8) + var_s4, 0, 0, sp4C, 0);
+        temp_s0_2 = temp_s0 + 0x13D8;
+        temp_s0_2->unk3 = 4;
+        temp_s0_2->unk7 = 0x64;
+        temp_s1->unk13E6 = sp5A;
+        temp_s0_2->unkC = sp54;
+        sp70 += 0x28;
+        temp_s0_2->unkD = sp55;
+        sp74 += 0x28;
+        temp_s0_2->unk10 = (s16) sp56;
+        sp60 += 1;
+        temp_s0_2->unk12 = (s16) sp57;
+        temp_s0_2->unk8 = 0x55;
+        temp_s0_2->unkA = temp_s2;
+        temp_s0_2->unk4 = sp5C;
+        temp_s0_2->unk5 = sp5D;
+        temp_s0_2->unk6 = sp5E;
+        func_8015CE18(arg0 + (var_s3 + 0x1428) + var_s4, 0, 0, sp58, 0);
+        var_s3 += 0x18;
+        if (sp60 < 2) {
+            goto loop_4;
+        }
+        var_s4 += 0xC;
+        temp_t0 = sp64 + 1;
+        sp78 += 0x14;
+        sp64 = temp_t0;
+    } while (temp_t0 < 2);
+}

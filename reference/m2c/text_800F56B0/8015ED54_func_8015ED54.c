@@ -1,0 +1,95 @@
+/* m2c reference for func_8015ED54 @ 8015ED54 (38 words). Generated; not compiled or validated. */
+extern s32 D_801BBFA8;
+static s8 D_800F4EB4[0x44] = {
+    0x56,
+    0x53,
+    0x79,
+    0x6E,
+    0x63,
+    0x3A,
+    0x20,
+    0x74,
+    0x69,
+    0x6D,
+    0x65,
+    0x6F,
+    0x75,
+    0x74,
+    0xA,
+    0,
+    0x24,
+    0x49,
+    0x64,
+    0x3A,
+    0x20,
+    0x69,
+    0x6E,
+    0x74,
+    0x72,
+    0x2E,
+    0x63,
+    0x2C,
+    0x76,
+    0x20,
+    0x31,
+    0x2E,
+    0x37,
+    0x36,
+    0x20,
+    0x31,
+    0x39,
+    0x39,
+    0x37,
+    0x2F,
+    0x30,
+    0x32,
+    0x2F,
+    0x31,
+    0x32,
+    0x20,
+    0x31,
+    0x32,
+    0x3A,
+    0x34,
+    0x35,
+    0x3A,
+    0x30,
+    0x35,
+    0x20,
+    0x6D,
+    0x61,
+    0x6B,
+    0x6F,
+    0x74,
+    0x6F,
+    0x20,
+    0x45,
+    0x78,
+    0x70,
+    0x20,
+    0x24,
+    0,
+}; /* const */
+
+void func_8015ED54(s32 arg0, s32 arg1) {
+    s32 sp10;
+    s32 temp_v0;
+
+    sp10 = arg1 << 0xF;
+    if (D_801BBFA8 < arg0) {
+loop_2:
+        temp_v0 = sp10 - 1;
+        sp10 = temp_v0;
+        if (temp_v0 == -1) {
+            puts(D_800F4EB4);
+            ChangeClearPAD(0);
+            ChangeClearRCnt(3, 0);
+            return;
+        }
+        if (D_801BBFA8 >= arg0) {
+
+        } else {
+            goto loop_2;
+        }
+    }
+}

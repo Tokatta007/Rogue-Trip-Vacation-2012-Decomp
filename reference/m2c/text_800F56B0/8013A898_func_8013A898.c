@@ -1,0 +1,73 @@
+/* m2c reference for func_8013A898 @ 8013A898 (77 words). Generated; not compiled or validated. */
+? func_8015C5A0(? *);                               /* extern */
+
+void func_8013A898(s16 arg0, s16 arg1, s32 arg2, s32 arg3) {
+    ? sp10;
+    s8 sp13;
+    s8 sp14;
+    s8 sp15;
+    s8 sp16;
+    s8 sp17;
+    s16 sp18;
+    s16 sp1A;
+    s16 sp1C;
+    s16 sp1E;
+    s16 sp20;
+    s16 sp22;
+    s16 sp24;
+    s16 sp26;
+    ? sp28;
+    s8 sp2B;
+    s8 sp2C;
+    s8 sp2D;
+    s8 sp2E;
+    s8 sp2F;
+    s16 sp30;
+    s16 sp32;
+    s16 sp34;
+    s16 sp36;
+    s16 temp_s1;
+    s16 temp_s2;
+
+    sp13 = 5;
+    sp17 = 0x28;
+    sp2B = 3;
+    sp2F = 0x40;
+    sp2C = 0x78;
+    sp2D = 0x32;
+    temp_s1 = arg0 + arg2;
+    temp_s2 = arg1 + arg3;
+    sp2E = 0x14;
+    sp18 = arg0;
+    sp1A = arg1;
+    sp1C = temp_s1;
+    sp1E = arg1;
+    sp20 = arg0;
+    sp22 = temp_s2;
+    sp24 = temp_s1;
+    sp26 = temp_s2;
+    sp14 = 0xA;
+    sp15 = 0xA;
+    sp16 = 0xA;
+    func_8015C5A0(&sp10);
+    sp30 = arg0;
+    sp32 = arg1;
+    sp34 = temp_s1;
+    sp36 = arg1;
+    func_8015C5A0(&sp28);
+    sp30 = temp_s1;
+    sp32 = arg1;
+    sp34 = temp_s1;
+    sp36 = temp_s2;
+    func_8015C5A0(&sp28);
+    sp30 = temp_s1;
+    sp32 = temp_s2;
+    sp34 = arg0;
+    sp36 = temp_s2;
+    func_8015C5A0(&sp28);
+    sp30 = arg0;
+    sp32 = temp_s2;
+    sp34 = arg0;
+    sp36 = arg1;
+    func_8015C5A0(&sp28);
+}
