@@ -1,0 +1,4 @@
+# Keep every file's bytes exactly as committed (no line-ending conversion).
+# The build hashes tools/cc1patch/*.c against tools/cc1patch/blobs.json, and
+# some files are committed with CRLF, others with LF.
+* -text
