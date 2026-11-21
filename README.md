@@ -3,7 +3,8 @@
 A **partial** C reconstruction of *Rogue Trip: Vacation 2012* (USA,
 `SLUS_006.43`), made to recover the game's **PS-Link (link cable)
 two-console multiplayer** so that its design and code can be used to add
-networked play to OpenTM2, a Twisted Metal 2 PC port. Rogue Trip runs on the same
+networked play to [OpenTM2](https://github.com/Tokatta007/OpenTM2), a
+Twisted Metal 2 PC port. Rogue Trip runs on the same
 SingleTrac engine lineage as Twisted Metal 2.
 
 It is not a complete decompilation. Everything that belongs to the link
@@ -129,11 +130,11 @@ only where the manifest says so). Currently none are semantic.
 | `tools/m2c_reference.py` | m2c draft per function into `reference/m2c/` (needs an m2c checkout) |
 | `tools/extract_disc.py` | Extract files from the disc image |
 
-This repository is meant to sit in the `references/` folder of OpenTM2, the
-Twisted Metal 2 PC port, next to the TM2 decompilation; by default
-`tools/splat.cmd`, `tools/m2c_reference.py` and `tools/tm2_match.py` find
-splat, m2c and the TM2 decomp at their places there (`SPLAT_DIR`, `--m2c`
-and `--tm2` point them elsewhere).
+By default `tools/splat.cmd`, `tools/m2c_reference.py` and
+`tools/tm2_match.py` expect this repository in a project's `references/`
+folder, next to the TM2 decompilation (`references/TM2-Decomp`), with splat
+and m2c checkouts in that project's `tools/`; `SPLAT_DIR`, `--m2c` and
+`--tm2` point them elsewhere.
 
 ## Continuing the decompilation
 
